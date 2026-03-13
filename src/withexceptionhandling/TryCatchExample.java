@@ -5,7 +5,7 @@ public class TryCatchExample {
         int a=10;
         int b=0;
         int res =0;
-
+//add dummy lines
         try{
             System.out.println("Inside try block before division operation");
             res= a/b;
@@ -13,8 +13,8 @@ public class TryCatchExample {
         } catch (ArithmeticException e){
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         }
-
         System.out.println("a is : "+a);
+        //add dummy lines
         System.out.println("b is : "+b);
         System.out.println("res is : "+res);
     }
